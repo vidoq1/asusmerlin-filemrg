@@ -163,4 +163,10 @@ This software is provided as is, without warranty. It edits shared hook files an
 
 ## License
 
-MIT License
+This project is released under the [MIT License](LICENSE).
+
+You are free to use, fork, modify, and redistribute it, including for
+commercial purposes, provided that you retain the copyright notice
+and license text.
+
+Copyright (c) 2026 Albert Sayapov.
