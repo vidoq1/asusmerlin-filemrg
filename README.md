@@ -98,7 +98,7 @@ Back up anything you cannot lose before deleting files from `/jffs` or a drive.
 |---|---|
 | GT-AX11000 Pro, Merlin 3006.102.9 | Tested |
 | Other Merlin 3006.x builds | Should work, untested |
-| Merlin 388.x | Untested |
+| prev Merlin builds | Untested |
 | Stock ASUS firmware | Not supported (no Addons API) |
 
 The modification time column adapts to the BusyBox `ls` output format. If the router's `ls` cannot print full timestamps, files older than about six months show a date without a time.
@@ -108,8 +108,8 @@ The modification time column adapts to the BusyBox `ls` output format. If the ro
 Copy the installer to the router and run it. Use your own admin user and router address:
 
 ```sh
-scp filemgr-install.sh admin@192.168.50.1:/tmp/
-ssh admin@192.168.50.1 'sh /tmp/filemgr-install.sh install'
+scp filemgr-install.sh admin@router_ip:/tmp/
+ssh admin@router_ip 'sh /tmp/filemgr-install.sh install'
 ```
 
 Then hard-refresh the WebUI (Ctrl+Shift+R / Cmd+Shift+R) and open **Administration -> File Manager**.
