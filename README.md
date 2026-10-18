@@ -163,7 +163,7 @@ This software is provided as is, without warranty. It edits shared hook files an
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+This project is released under the [MIT License](LICENSE.md).
 
 You are free to use, fork, modify, and redistribute it, including for
 commercial purposes, provided that you retain the copyright notice
